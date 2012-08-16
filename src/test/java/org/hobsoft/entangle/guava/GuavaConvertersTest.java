@@ -30,7 +30,6 @@ import static org.junit.Assert.assertTrue;
  * Tests {@code GuavaConverters}.
  * 
  * @author Mark Hobson
- * @version $Id: GuavaConvertersTest.java 97383 2011-12-28 20:22:56Z mark@IIZUKA.CO.UK $
  * @see GuavaConverters
  */
 public class GuavaConvertersTest

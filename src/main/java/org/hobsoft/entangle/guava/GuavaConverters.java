@@ -26,7 +26,6 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * Factory for adapting Guava to converters.
  * 
  * @author Mark Hobson
- * @version $Id: GuavaConverters.java 97383 2011-12-28 20:22:56Z mark@IIZUKA.CO.UK $
  */
 public final class GuavaConverters
 {
