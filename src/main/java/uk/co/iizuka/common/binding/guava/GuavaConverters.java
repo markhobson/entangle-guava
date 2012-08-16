@@ -5,14 +5,14 @@
  */
 package uk.co.iizuka.common.binding.guava;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import org.hobsoft.entangle.Converter;
 
 import com.google.common.base.Function;
 import com.google.common.base.Functions;
 import com.google.common.base.Predicate;
 import com.google.common.base.Supplier;
 
-import org.hobsoft.entangle.Converter;
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Factory for adapting Guava to converters.

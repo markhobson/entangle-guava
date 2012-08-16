@@ -5,19 +5,18 @@
  */
 package uk.co.iizuka.common.binding.guava;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 import java.util.Collections;
+
+import org.hobsoft.entangle.Converter;
+import org.junit.Test;
 
 import com.google.common.base.Function;
 import com.google.common.base.Functions;
 import com.google.common.base.Predicates;
 import com.google.common.base.Suppliers;
 
-import org.junit.Test;
-
-import org.hobsoft.entangle.Converter;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Tests {@code GuavaConverters}.
