@@ -31,6 +31,9 @@
 	<version>0.1.0-SNAPSHOT</version>
 	
 	<name>Entangle Guava Integration</name>
+	<description>Entangle support for Google Guava.</description>
+	<url>https://github.com/markhobson/entangle-guava</url>
+	<inceptionYear>2011</inceptionYear>
 	
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle-guava.git</connection>
@@ -38,6 +41,11 @@
 		<url>https://github.com/markhobson/entangle-guava</url>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/markhobson/entangle-guava/issues</url>
+	</issueManagement>
+	
 	<dependencies>
 	
 		<dependency>
@@ -63,4 +71,12 @@
 	
 	</dependencies>
 
+	<distributionManagement>
+		<site>
+			<id>github-site</id>
+			<name>Entangle Guava Maven Site</name>
+			<url>gitsite:git@github.com/markhobson/entangle-guava.git</url>
+		</site>
+	</distributionManagement>
+	
 </project>
