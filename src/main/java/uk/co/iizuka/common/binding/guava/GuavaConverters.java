@@ -53,13 +53,11 @@ public final class GuavaConverters
 		
 		return new Converter<S, T>()
 		{
-			@Override
 			public T convert(S source)
 			{
 				return toFunction.apply(source);
 			}
 			
-			@Override
 			public S unconvert(T target)
 			{
 				if (fromFunction == null)
