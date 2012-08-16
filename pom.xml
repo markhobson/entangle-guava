@@ -71,6 +71,21 @@
 	
 	</dependencies>
 
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<links>
+						<link>http://markhobson.github.com/entangle/apidocs/</link>
+						<link>http://docs.guava-libraries.googlecode.com/git-history/v10.0/javadoc/</link>
+					</links>
+				</configuration>
+			</plugin>
+		</plugins>
+	</reporting>
+
 	<distributionManagement>
 		<site>
 			<id>github-site</id>
