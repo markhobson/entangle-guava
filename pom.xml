@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	$HeadURL: https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1/pom.xml $
+	
+	(c) 2010 IIZUKA Software Technologies Ltd.  All rights reserved.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>uk.co.iizuka</groupId>
+		<artifactId>iizuka-parent</artifactId>
+		<version>3.1.0-beta-2</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.co.iizuka.common</groupId>
+	<artifactId>common-binding-guava</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-beta-1</version>
+	
+	<name>Common Binding Guava Integration</name>
+	
+	<scm>
+		<connection>scm:svn:https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1</connection>
+		<developerConnection>scm:svn:https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1</developerConnection>
+		<url>https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1</url>
+	</scm>
+
+	<dependencies>
+	
+		<dependency>
+			<groupId>uk.co.iizuka.common</groupId>
+			<artifactId>common-binding</artifactId>
+			<version>1.1.0-beta-1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>10.0.1</version>
+		</dependency>
+		
+		<!-- test -->
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+	
+	</dependencies>
+
+</project>
