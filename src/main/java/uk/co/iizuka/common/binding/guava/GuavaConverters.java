@@ -12,7 +12,7 @@ import com.google.common.base.Functions;
 import com.google.common.base.Predicate;
 import com.google.common.base.Supplier;
 
-import uk.co.iizuka.common.binding.Converter;
+import org.hobsoft.entangle.Converter;
 
 /**
  * Factory for adapting Guava to converters.

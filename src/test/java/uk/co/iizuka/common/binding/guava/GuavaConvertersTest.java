@@ -17,7 +17,7 @@ import com.google.common.base.Suppliers;
 
 import org.junit.Test;
 
-import uk.co.iizuka.common.binding.Converter;
+import org.hobsoft.entangle.Converter;
 
 /**
  * Tests {@code GuavaConverters}.
