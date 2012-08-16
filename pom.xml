@@ -22,9 +22,9 @@
 	<name>Common Binding Guava Integration</name>
 	
 	<scm>
-		<connection>scm:svn:https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1</connection>
-		<developerConnection>scm:svn:https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1</developerConnection>
-		<url>https://svn.iizuka.co.uk/common/binding/guava/tags/1.0.0-beta-1</url>
+		<connection>scm:git:git@github.com:markhobson/entangle-guava.git</connection>
+		<developerConnection>scm:git:git@github.com:markhobson/entangle-guava.git</developerConnection>
+		<url>https://github.com/markhobson/entangle-guava</url>
 	</scm>
 
 	<dependencies>
