@@ -3,7 +3,7 @@
  * 
  * (c) 2011 IIZUKA Software Technologies Ltd.  All rights reserved.
  */
-package uk.co.iizuka.common.binding.guava;
+package org.hobsoft.entangle.guava;
 
 import java.util.Collections;
 
