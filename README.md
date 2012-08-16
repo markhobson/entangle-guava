@@ -1,7 +1,7 @@
 entangle-guava
 ==============
 
-Entangle support for Guava.
+Entangle support for [Google Guava](http://code.google.com/p/guava-libraries/).
 
 # License
 
