@@ -88,9 +88,9 @@
 
 	<distributionManagement>
 		<site>
-			<id>github-site</id>
+			<id>site</id>
 			<name>Entangle Guava Maven Site</name>
-			<url>gitsite:git@github.com/markhobson/entangle-guava.git</url>
+			<url>scm:git:git@github.com:markhobson/entangle-guava.git</url>
 		</site>
 	</distributionManagement>
 	
