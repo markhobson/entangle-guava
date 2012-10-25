@@ -1,4 +1,4 @@
-entangle-guava
+Entangle Guava
 ==============
 
 Entangle support for [Google Guava](http://code.google.com/p/guava-libraries/).
