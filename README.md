@@ -7,6 +7,7 @@ Entangle support for [Google Guava](http://code.google.com/p/guava-libraries/).
 * [Javadocs](http://markhobson.github.com/entangle-guava/apidocs/)
 * [Mailing List](https://groups.google.com/d/forum/entangle)
 
-# License
+License
+-------
 
 * [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
