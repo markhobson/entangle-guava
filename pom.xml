@@ -37,6 +37,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle-guava.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/entangle-guava.git</developerConnection>
+		<tag>HEAD</tag>
 		<url>https://github.com/markhobson/entangle-guava</url>
 	</scm>
 
